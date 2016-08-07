@@ -3,7 +3,7 @@
 ##Exercises:
 
 ###In-Class:
-+ D04_ex00.py
+√ D04_ex00.py
 
 ###Think Python:
 ####[Chapter 7: Iteration][ch7]

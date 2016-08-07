@@ -21,15 +21,24 @@
 
 ###############################################################################
 # Imports
-
+import math
 
 # Body
+def eval_loop ():
+    #init input
+    eval_input = ''
 
+    #main loop
+    while eval_input.lower() != 'done':
+        try:
+            eval_input = input("enter something to evaluate: ")
+            print(eval(eval_input))
+        except:
+            pass
 
 ###############################################################################
 def main():
-    pass  # Remove this line and uncomment below once eval_loop is defined.
-    # eval_loop()
+    eval_loop()
 
 if __name__ == '__main__':
     main()
